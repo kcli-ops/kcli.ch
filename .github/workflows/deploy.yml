@@ -30,3 +30,6 @@ jobs:
 
       - name: Build and Deploy Roq Site
         uses: quarkiverse/quarkus-roq@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          setup-java: 'false'
