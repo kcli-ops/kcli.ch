@@ -28,8 +28,8 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
-      - name: Build static site
-        run: ./mvnw -B quarkus:build -Dquarkus.roq.generator.batch=true
+      - name: Build and Deploy Roq Site
+        uses: quarkiverse/quarkus-roq@main
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
