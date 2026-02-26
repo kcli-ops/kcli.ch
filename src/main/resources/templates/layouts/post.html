@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{page.title} | Kanu Club Limmat</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="/static/images/kcli-logo.png" alt="KCLi Logo" class="logo-img">
+                <span class="logo-text">Kanu Club Limmat</span>
+            </a>
+            <nav class="main-nav">
+                <button class="nav-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="/">News</a></li>
+                    <li class="has-dropdown">
+                        <a href="/club">Der Club</a>
+                        <ul class="dropdown">
+                            <li><a href="/vorstand">Vorstand</a></li>
+                            <li><a href="/kurse">Kurse</a></li>
+                            <li><a href="/areal">Areal</a></li>
+                            <li><a href="/geschichte">Geschichte</a></li>
+                            <li><a href="/statuten">Statuten</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/kalender">Kalender</a></li>
+                    <li><a href="/galerie">Galerie</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+        <div class="container">
+            <article class="post-content">
+                <header class="post-header">
+                    <a href="/" class="back-link">&larr; Zurück zu News</a>
+                    <h1 class="post-title">{page.title}</h1>
+                    {#if page.date}
+                    <time class="post-date" datetime="{page.date}">{page.date.format('dd.MM.yyyy')}</time>
+                    {/if}
+                </header>
+                <div class="post-body">
+                    {#insert /}
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="footer-title">Kanu Club Limmat</p>
+                    <p>Mitglied des <a href="http://swisscanoe.ch/" target="_blank">Schweizerischen Kanuverbands</a></p>
+                </div>
+                <div class="footer-links">
+                    <a href="/lage">Lage</a>
+                    <a href="/statuten">Statuten</a>
+                    <a href="/vorstand">Kontakt</a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 Kanu Club Limmat</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        // Mobile dropdown toggle
+        document.querySelectorAll('.has-dropdown > a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    this.parentElement.classList.toggle('open');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
