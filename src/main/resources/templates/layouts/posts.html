@@ -10,7 +10,7 @@ layout: main
         <a href="{post.url}" class="post-card">
             {#if post.data.image}
             <div class="post-card-image">
-                <img src="{post.data.image}" alt="{post.title}">
+                <img src="{site.url(post.data.image)}" alt="{post.title}">
             </div>
             {/if}
             <div class="post-card-content">
