@@ -23,19 +23,19 @@
                     <span></span>
                 </button>
                 <ul class="nav-menu">
-                    <li><a href="/">News</a></li>
+                    <li><a href="{site.url("/")}">News</a></li>
                     <li class="has-dropdown">
                         <a href="/club">Der Club</a>
                         <ul class="dropdown">
-                            <li><a href="/vorstand">Vorstand</a></li>
-                            <li><a href="/kurse">Kurse</a></li>
-                            <li><a href="/areal">Areal</a></li>
-                            <li><a href="/geschichte">Geschichte</a></li>
-                            <li><a href="/statuten">Statuten</a></li>
+                            <li><a href="{site.url("/vorstand")}">Vorstand</a></li>
+                            <li><a href="{site.url("/kurse")}">Kurse</a></li>
+                            <li><a href="{site.url("/areal")}">Areal</a></li>
+                            <li><a href="{site.url("/geschichte")}">Geschichte</a></li>
+                            <li><a href="{site.url("/statuten")}">Statuten</a></li>
                         </ul>
                     </li>
-                    <li><a href="/kalender">Kalender</a></li>
-                    <li><a href="/galerie">Galerie</a></li>
+                    <li><a href="{site.url("/kalender")}">Kalender</a></li>
+                    <li><a href="{site.url("/galerie")}">Galerie</a></li>
                 </ul>
             </nav>
         </div>
@@ -58,9 +58,9 @@
                     <p>Mitglied des <a href="http://swisscanoe.ch/" target="_blank">Schweizerischen Kanuverbands</a></p>
                 </div>
                 <div class="footer-links">
-                    <a href="/lage">Lage</a>
-                    <a href="/statuten">Statuten</a>
-                    <a href="/vorstand">Kontakt</a>
+                    <a href="{site.url("/areal")}">Lage</a>
+                    <a href="{site.url("/statuten")}">Statuten</a>
+                    <a href="{site.url("/vorstand")}">Kontakt</a>
                 </div>
             </div>
             <p class="copyright">&copy; 2026 Kanu Club Limmat</p>
