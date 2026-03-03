@@ -13,7 +13,7 @@
     <header class="site-header">
         <div class="container">
             <a href="/" class="logo">
-                <img src="/static/images/kcli-logo.png" alt="KCLi Logo" class="logo-img">
+                <img src="{site.url.fromRoot("/static/images/kcli-logo.png")}" alt="KCLi Logo" class="logo-img">
                 <span class="logo-text">Kanu Club Limmat</span>
             </a>
             <nav class="main-nav">
@@ -43,10 +43,7 @@
 
     <main class="site-main">
         <div class="container">
-            <article class="page-content">
-                <h1 class="page-title">{page.title}</h1>
-                {#insert /}
-            </article>
+             {#insert /}
         </div>
     </main>
 
