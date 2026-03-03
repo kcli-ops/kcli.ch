@@ -2,7 +2,7 @@
 title: "Jubiläumsfeier 50 Jahre KCLi"
 layout: post
 date: 2026-02-24
-image: /static/images/page4_img_p3_4.png
+image: page4_img_p3_4.png
 ---
 
 Ja, es ist war: Den Kanu Club Limmat gibt es bereits seit 50 Jahren. Ein halbes Jahrhundert ist ein guter Grund, um ein Jubiläumsfest zu feiern. Begonnen hat alles allerdings schon ein halbes
@@ -16,29 +16,29 @@ halten, Tische aufstellen und die Dekoration anbringen. Auch die Rafts mussten b
 sel in Brugg abgeholt und in der Aue in Stephans Garage vorbereitet werden – zum Glück, denn
 eines hatte tatsächlich ein Loch!
 
-![]({page.image("/static/images/page4_img_p3_4.png")})
+![](page4_img_p3_4.png)
 
-![]({page.image("/static/images/page4_img_p3_5-1.png")})
+![](page4_img_p3_5-1.png)
 
-![]({page.image("/static/images/page4_img_p3_7.png")})
+![](page4_img_p3_7.png)
 
-![]({page.image("/static/images/page4_img_p3_6-1.png")})
+![](page4_img_p3_6-1.png)
 
 Dann war es endlich so weit. Samstag, 13:00 Uhr: Treffpunkt für alle, welche sich für die River- Rafting- Tour angemeldet hatten. Pünktlich trafen die ersten Teilnehmenden ein, und schon bald waren alle 20 Wasserratten versammelt. Umziehen im Chrotte, Fahrt in die Aue, die Boote
 fertig aufpumpen und alle mit einem Gütterli Mineralwassser ausgerüsten – dann konnte es losgehen. Eingestiegen sind wir beider Schleuse: zwei 8erund ein 4er Raft. Auf den ersten paar Metern machten wir uns mit den Booten vertraut. Entlang der Limmatpromenade gab es die ersten kleinen Wellenspritzer, bis uns die Oederlin-Wellen schliesslich so richtig die Wildwas
 serfreude spüren liessen. Bis zu dreimal durchfuhren wir diesen Abschnitt. Anschliessend folgte der ruhigste Teil bis zum Kraftwerk Kappelerhof. Dort mussten wir die Boote umtragen, ebenso kurz darauf bei der Stauklappe des Kraftwerks Schiffmühle. Auf den ruhigeren Passagen durften Wasserschlachten oder ein erfrischender Schwumm in der Limmat natürlich nicht fehlen. Zweimal gab es nochmals Action: beim Kraftwerk Turgi und zum Schluss bei der BAG (Turgi). Unten angekommen warteten bereits Helfer, sodass Personen- und Materialtransport effizient abliefen.
 
-![]({page.image("/static/images/page5_img_p4_3.png")})
+![](page5_img_p4_3.png)
 
-![]({page.image("/static/images/page5_img_p4_1.png")})
+![](page5_img_p4_1.png)
 
-![]({page.image("/static/images/page5_img_p4_2.png")})
+![](page5_img_p4_2.png)
 
-![]({page.image("/static/images/page5_img_p4_4.png")})
+![](page5_img_p4_4.png)
 
-![]({page.image("/static/images/page5_img_p4_6.png")})
+![](page5_img_p4_6.png)
 
-![]({page.image("/static/images/page5_img_p4_5.png")})
+![](page5_img_p4_5.png)
 
 Etwas verspätet trafen wir Böötler zum Apéro um 17:00 Uhr ein. Es hatten sich bereits viele Gäste eingefunden, und es gab ein grosses Hallo und Willkommen. Aktive, Passive, Ehemalige, auch Vertreter anderer Clubs mit Angehörigen oder Kindern – schliesslich waren wir 50 Personen. Bevor es zum Nachtessen überging, erzählte René Hasenfratz, wie es vor 50
 Jahren zur Gründung kam, und zeigte eine Tafel, auf der die damalige Arealplanung dargestellt
